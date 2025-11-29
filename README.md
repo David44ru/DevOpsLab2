@@ -93,8 +93,8 @@ pipeline {
     agent any
     
     parameters {
-        string(name: 'STUDENT_NAME', defaultValue: 'Mukhtarov-Ruslan', description: 'Имя студента')
-        string(name: 'PORT', defaultValue: '8053', description: 'Порт')
+        string(name: 'STUDENT_NAME', defaultValue: 'Peresypkin-David', description: 'Имя студента')
+        string(name: 'PORT', defaultValue: '8054', description: 'Порт')
     }
     
     stages {
